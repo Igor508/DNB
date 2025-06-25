@@ -1,0 +1,30 @@
+query RunInput {
+  cart {
+    cost {
+      subtotalAmount {
+        amount
+        currencyCode
+      }
+    }
+    deliveryGroups {
+      deliveryAddress {
+        countryCode
+        provinceCode
+      }
+      deliveryOptions {
+        handle
+        title
+      }
+      selectedDeliveryOption {
+        cost {
+          amount
+        }
+      }
+    }
+  }
+  discountNode {
+    metafield(namespace: "shipping-customization", key: "function-configuration") {
+      value
+    }
+  }
+}
