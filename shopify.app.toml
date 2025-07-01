@@ -3,7 +3,7 @@
 client_id = "e10aa4f34dacb970d38aeea313ff5b45"
 name = "delivery-customization"
 handle = "delivery-customization-142"
-application_url = "https://pottery-shaped-printed-dry.trycloudflare.com"
+application_url = "https://delivery-customization-empty-morning-4020.fly.dev"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_discounts,read_metaobject_definitions,read_metaobjects,write_deli
 
 [auth]
 redirect_urls = [
-  "https://pottery-shaped-printed-dry.trycloudflare.com/auth/callback",
-  "https://pottery-shaped-printed-dry.trycloudflare.com/auth/shopify/callback",
-  "https://pottery-shaped-printed-dry.trycloudflare.com/api/auth/callback"
+  "https://delivery-customization-empty-morning-4020.fly.dev/auth/callback",
+  "https://delivery-customization-empty-morning-4020.fly.dev/auth/shopify/callback",
+  "https://delivery-customization-empty-morning-4020.fly.dev/api/auth/callback"
 ]
 
 [webhooks]
